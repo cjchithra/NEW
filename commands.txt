@@ -1,0 +1,130 @@
+ 1  sudo apt update
+    2  sudo su
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  mkdir devops
+    6  ls
+    7  mkdir devops{1..5}
+    8  ls
+    9  touch devops.txt
+   10  ls
+   11  touch file {1..5}.txt
+   12  ls
+   13  ls -l
+   14  chmod 777 devops
+   15  ls -l
+   16  rm devops
+   17  rm r directory
+   18  rm devops.txt
+   19  ls
+   20  rm -r devops
+   21  ls
+   22  chmod a+x devops
+   23  cat > new
+   24  ls
+   25  chmod a+x new
+   26  ls -l
+   27  cd devops1
+   28  pwd
+   29  vi devops
+   30  cat devops.txt
+   31  cat devops
+   32  cat -n devops
+   33  vi devops
+   34  vi devops +1
+   35  cat devops
+   36  uname -a
+   37  cat /etc/os-release
+   38  sudo su chithra
+   39  du -dh
+   40  du -sh
+   41  ls-lrt
+   42  ls -lrt
+   43  chown chithra
+   44  sudo chown chithra:ubuntu devops1
+   45  ls -lrt
+   46  vi file.txt
+   47  vi devops1.txt
+   48  cat devops1.txt
+   49  pwd
+   50  cd devops1
+   51  touch ait1
+   52  cd ..
+   53  cd devops1
+   54  ls
+   55  pwd
+   56  cat ait1
+   57  cat devops1
+   58  cd ..
+   59  cd devops1
+   60  cat ait1
+   61  cat devops1
+   62  cat ait1
+   63  la
+   64  ls
+   65  ls -lrt
+   66  exit
+   67  sudo adduser chithracj
+   68  sudo adduser chithra
+   69  sudo su chithra
+   70  cal
+   71  date
+   72  mv devops devops1
+   73  mv devops1 devops2
+   74  ls
+   75  pwd
+   76  ls -d -l
+   77  ls devops1
+   78  cat devops1
+   79  cat devops2
+   80  cd devops2
+   81  ls -l -d
+   82  ls -lrt
+   83  cd ..
+   84  pwd
+   85  sudo apt install tree
+   86  tree
+   87  vi devops3
+   88  vi devops3.txt
+   89  cat devops3.txt
+   90  vi devops3.txt +2
+   91  vi devops3.txt +4
+   92  cat devops3.txt
+   93  tac devops3.txt
+   94  grep "^hello" devops3
+   95  grep "^hello" devops3.txt
+   96  cat devops3.txt
+   97  grep -i "^hello" devops3.txt
+   98  grep -i "^efds" devops3.txt
+   99  grep -v -e -i "hello" -e "efds"
+  100  grep -v -e "can" -e "ewfgsdfwd"
+  101  grep -v -e -i "can" -e "ewfgsdfwd"
+  102  vi new.txt
+  103  cat new.txt
+  104  grep -i -e "plants" -e "or"
+  105  grep -i -e "plants" -e "or" new.txt
+  106  grep -r "plants" new.txt
+  107  grep -n -i "plants" new.txt
+  108  grep -o "plants" new.txt
+  109  man cat
+  110  head -5 new.txt
+  111  head new.txt
+  112  vi new.txt
+  113  cat -n new.txt
+  114  head new.txt
+  115  exit
+  116  vi devops4.txt
+  117  cp devops4.txt devops3.txt devops2.txt
+  118  cp devops4.txt devops3.txt new.txt
+  119  cp devops4.txt devops3.txt devops5.txt
+  120  cp devops4.txt devops3.txt devops1.txt
+  121  cp devops4.txt devops3.txt new1.txt
+  122  cp devops4.txt devops3.txt devops.txt
+  123  cp devops4.txt devops3.txt devops1.txt
+  124  cp devops4.txt devops3.txt
+  125  cat devops3.txt
+  126  sed's/unix/linux/devops4.txt
+  127  exit
+  128  sed 's/unix/linux/' devops4.txt
+  129  sed 's/unix/linux/2' devops4.txt
+  130  history
